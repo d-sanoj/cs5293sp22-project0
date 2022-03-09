@@ -3,12 +3,12 @@
 **Introduction** – In this project, one of the pdfs of incident data summary report is downloaded from the website of normanok.gov which consists of daily case summaries of incidents according to their nature, date and other information associated to it divided into 5 different columns. This project is developed using Python and Command line tools in Ubuntu.
 
 **Sources** – 
-*URL considered - https://www.normanok.gov/sites/default/files/documents/2022-03/2022-02-28_daily_incident_summary.pdf
-Sources for Regular Expressions – 
-re.sub() – https://docs.python.org/3/library/re.html
-re.split() – https://stackoverflow.com/questions/41220172/regex-to-splitstring-on-date-and-keep-it
-pandas DataFrame for separating and inserting into the table (incidents) – https://www.geeksforgeeks.org/python-pandas-dataframe/
-sqlite3 source and execution – https://docs.python.org/3.8/library/sqlite3.html*
+*URL considered - https://www.normanok.gov/sites/default/files/documents/2022-03/2022-02-28_daily_incident_summary.pdf  
+Sources for Regular Expressions –   
+re.sub() – https://docs.python.org/3/library/re.html  
+re.split() – https://stackoverflow.com/questions/41220172/regex-to-splitstring-on-date-and-keep-it  
+pandas DataFrame for separating and inserting into the table (incidents) – https://www.geeksforgeeks.org/python-pandas-dataframe/  
+sqlite3 source and execution – https://docs.python.org/3.8/library/sqlite3.html*  
 
 **Installation directions** – We use the packages urllib, PyPDF2, tempfile, re, sqlite3 and pandas where urllib and tempfile packages are inbuilt with python and does not need separate installation and remaining packages can be installed using commands – pipenv install PyPDF2, pipenv install re, pip install sqlite3 and pip install pandas respectively. These packages will be imported into the project when required.
 
