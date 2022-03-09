@@ -1,4 +1,4 @@
-**Author - Sanoj Doddapaneni**
+# Author - SANOJ DODDAPANENI
 
 **Introduction** – In this project, one of the pdfs of incident data summary report is downloaded from the website of normanok.gov which consists of daily case summaries of incidents according to their nature, date and other information associated to it divided into 5 different columns. This project is developed using Python and Command line tools in Ubuntu.
 
